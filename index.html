@@ -153,26 +153,11 @@ map.addLayer({
 },
 "filter": ["==", "Interventions_Human Security and freedom from violence", 1]
 });
+    
+    
+});
+    
 
-    
-map.addLayer({
-"id": 'Humanitarian support',
-'type': 'fill',
-    'source': {
-        "type": 'geojson',
-        "data": 'https://raw.githubusercontent.com/lombie/DRCforK/master/drc.geojson'
-    },
-    
-"paint": {
-"fill-color":'blue',
-"fill-opacity": 0.4,
-"fill-outline-color":'black'    
-},
-"filter": ["==", "Humanitarian support", 1]
-});
-    
-    
-});
     
 
 var toggleableLayerIds = [ 'Democracy/Human Rights/Gender', 'Health', 'Productive and Sustainable Employment', 'Human Security and Freedom from Violence', 'Humanitarian support' ];
